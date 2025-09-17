@@ -8,6 +8,6 @@ spec:
     issuerRef:
         name: letsencrypt-prod
         kind: ClusterIssuer
-    commonName: multi-k8s.automate-solutions.net
+    commonName: multi-k8s.automate-solutions.net # this will be show in certificate on browser
     dnsNames:
         - multi-k8s.automate-solutions.net
